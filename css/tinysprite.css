@@ -265,3 +265,12 @@ h3, h4, h5 {
 #linkTryMSXPen {
 	margin-right: auto;
 }
+
+.animBtn {
+	width: 30px;
+	cursor: pointer;
+}
+
+.animBtn:hover {
+	background-color: darkgray;
+}
