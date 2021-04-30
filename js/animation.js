@@ -8,6 +8,8 @@ let player = {
 
 function doAnimation() {
 
+    player.fps = $('#txtFps').val();
+
 	showCurrentFrame();
 
 	nextFrame();
@@ -54,8 +56,6 @@ $(() => {
         doAnimation();
 
         player.isPlaying = true;
-
-        //$(this).disable();
     });
     
     $('#btnNext').click(() => {
@@ -70,5 +70,6 @@ $(() => {
         showCurrentFrame();
     });
     
+    $('#txtFps').val(player.fps);
     doAnimation();
 });

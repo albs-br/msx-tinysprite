@@ -274,3 +274,7 @@ h3, h4, h5 {
 .animBtn:hover {
 	background-color: darkgray;
 }
+
+#txtFps {
+	width: 50px
+}
